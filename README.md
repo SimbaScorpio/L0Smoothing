@@ -12,6 +12,6 @@ Javascript sync implementation of an image smoothing algorithm involving L0 grad
 
 ## Result
 ![](https://github.com/SimbaScorpio/L0Smoothing/raw/master/img/model.jpg)
-![](https://github.com/SimbaScorpio/L0Smoothing/raw/master/img/model_result.png) \<br>
+![](https://github.com/SimbaScorpio/L0Smoothing/raw/master/img/model_result.png)
 ![](https://github.com/SimbaScorpio/L0Smoothing/raw/master/img/scene.jpg)
 ![](https://github.com/SimbaScorpio/L0Smoothing/raw/master/img/scene_result.png)
