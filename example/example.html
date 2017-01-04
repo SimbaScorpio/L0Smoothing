@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<!-- src -->
+		<script src="../src/FFT.js"></script>
+		<script src="../src/L0Smoothing.js"></script>
+		<!-- src -->
+		<script src="example.js"></script>
+	</head>
+	<body>
+		<input type="file" id="img">
+		<span>Lambda</span>
+		<input type="text" id="lambda" value="0.1">
+		<span>Kappa</span>
+		<select id="kappa">
+			<option value="2">2</option>
+			<option value="4">4</option>
+			<option value="8" selected="selected">8</option>
+			<option value="12">12</option>
+			<option value="16">16</option>
+		</select>
+		<button id="run">Run</button>
+		<h3 id="process">Please select an image in the range of 512x512 :)</h3>
+		<canvas id="canvas-origin"></canvas>
+		<canvas id="canvas-result"></canvas>
+	</body>
+</html>
