@@ -1,5 +1,5 @@
 /**
- * Serial implementations of an image smoothing algorithm involving L0 gradient minimization.
+ * Serial implementation of image smoothing algorithm involving L0 gradient minimization.
  * Based on the image smoothing method described in the following paper:
  * "Image Smoothing via L0 Gradient Minimization", (SIGGRAPH Asia 2011), 2011.
  *
