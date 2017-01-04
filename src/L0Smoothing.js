@@ -11,7 +11,7 @@
  *
  * @param <Int> width 		[width of the image]
  * @param <Int> height   	[height of the image]
- * @param <Array> imageData [image data maintained in RGBA form]
+ * @param <Array> imageData 	[image data maintained in RGBA form]
  */
 var L0Smoothing = function(width, height, imageData) {
 	this.width = width;
@@ -98,7 +98,7 @@ L0Smoothing.prototype.GetImageData = function() {
 /**
  * Init RGB channel data array.
  *
- * @param <Array> imageData [image data maintained in RGBA form]
+ * @param <Array> imageData 	[image data maintained in RGBA form]
  * @param <Int> width 		[real image width]
  * @param <Int> height 		[real image height]
  * @param <Int> maxWidth 	[width of power of 2 (>=width)]
@@ -156,8 +156,8 @@ L0Smoothing.prototype.InitRGBHV = function(maxWidth, maxHeight) {
  *
  * @param <Int> maxWidth 	[width of power of 2 (>=width)]
  * @param <Int> maxHeight 	[height of power of 2 (>=height)]
- * @param <Int> rw 			[2^rw = maxWidth]
- * @param <Int> rh 			[2^rh = maxHeight]
+ * @param <Int> rw 		[2^rw = maxWidth]
+ * @param <Int> rh 		[2^rh = maxHeight]
  */
 L0Smoothing.prototype.CalculateRGBFFT = function(maxWidth, maxHeight, rw, rh) {
 	this.RIr = this.Rr.slice();
@@ -178,8 +178,8 @@ L0Smoothing.prototype.CalculateRGBFFT = function(maxWidth, maxHeight, rw, rh) {
  *
  * @param <Int> maxWidth 	[width of power of 2 (>=width)]
  * @param <Int> maxHeight 	[height of power of 2 (>=height)]
- * @param <Int> rw 			[2^rw = maxWidth]
- * @param <Int> rh 			[2^rh = maxHeight]
+ * @param <Int> rw 		[2^rw = maxWidth]
+ * @param <Int> rh 		[2^rh = maxHeight]
  */
 L0Smoothing.prototype.CalculateMTF = function(width, height, rw, rh) {
 	var size = width*height;
